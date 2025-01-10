@@ -61,6 +61,11 @@ body {
   font-size: 24px;
 }
 
+.medium16 {
+  font-weight: 500;
+  font-size: 16px;
+}
+
 .regular16 {
   font-weight: 400;
   font-size: 16px;
@@ -250,6 +255,43 @@ body {
 }
 
 /* section4 designs */
+
+.section4-table {
+  padding: 32px;
+  background-color: #ffffff;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.theader1 {
+  text-align: left;
+}
+
+th,
+td {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 8px;
+  height: 50px;
+}
+
+th {
+  color: #0e0e0e;
+  background-color: #c6e4d6;
+}
+
+select {
+  display: block;
+  margin: 0 auto;
+  background-color: #c6e4d6;
+  padding: 12px 16px;
+}
+
+.tbody1 {
+  color: #0e0e0e;
+}
 
 /* section5 designs */
 
