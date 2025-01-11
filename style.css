@@ -1,10 +1,8 @@
 /* fonts set up */
 
-.open-sans-normal {
-  font-family: "Open Sans", serif;
-  font-optical-sizing: auto;
+.fira-sans-regular {
+  font-family: "Fira Sans", serif;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 /* universal designs */
 
@@ -436,3 +434,21 @@ textarea ::placeholder {
 }
 
 /* footer section designs */
+
+.footer {
+  background-color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 80px;
+}
+
+.footer-title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
