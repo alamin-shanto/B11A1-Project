@@ -108,6 +108,13 @@ body {
   border: 1px solid #006a50;
 }
 
+.header-btn:hover {
+  background-color: black;
+  color: #ffffff;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 /* main section designs */
 
 /* section1 designs */
@@ -118,6 +125,7 @@ body {
   display: flex;
   padding: 80px 60px;
   margin-bottom: 80px;
+  border-radius: 24px;
 }
 
 .section1-content {
@@ -142,6 +150,13 @@ body {
   border-radius: 8px;
   border: none;
   padding: 17px 34px;
+}
+
+.content1-btn:hover {
+  background-color: #006a50;
+  color: red;
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .section1-image {
@@ -221,12 +236,27 @@ body {
   background-color: #5490f5;
 }
 
+.cards-btn1:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .cards-btn2 {
   background-color: #09a15c;
 }
 
+.cards-btn2:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .cards-btn3 {
   background-color: #ffc239;
+}
+
+.cards-btn3:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .section3-section {
@@ -333,6 +363,11 @@ select {
   background-color: #006a50;
 }
 
+.cards-btn4:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 /* section6 designs */
 
 .section6 {
@@ -359,6 +394,15 @@ select {
   border-radius: 16px;
   border: none;
   text-align: center;
+}
+
+.section6-cards1:hover,
+.section6-cards2:hover,
+.section6-cards3:hover,
+.section6-cards4:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: #c6e4d6;
 }
 
 .section6-cards1,
@@ -393,6 +437,11 @@ textarea ::placeholder {
   background-color: #006a50;
 }
 
+.cards-btn5:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
 .cbtn {
   text-align: center;
 }
@@ -409,6 +458,9 @@ textarea ::placeholder {
 .section7 textarea {
   height: 20px;
   padding: 18px 40px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border: none;
 }
 
 .section7-content {
@@ -426,6 +478,11 @@ textarea ::placeholder {
   border: none;
   padding: 17px 34px;
   background-color: #006a50;
+}
+
+.section7-btn:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .section7-description2 {
@@ -450,5 +507,6 @@ textarea ::placeholder {
 .footer-img {
   display: flex;
   justify-content: center;
+  gap: 25px;
   margin-top: 32px;
 }
