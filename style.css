@@ -331,6 +331,10 @@ select {
   margin-bottom: 80px;
 }
 
+.card-img {
+  border-radius: 24px;
+}
+
 .sd5 {
   margin-bottom: 32px;
 }
