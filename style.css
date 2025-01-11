@@ -399,6 +399,40 @@ textarea ::placeholder {
   text-align: center;
 }
 
-/* section9 designs */
+/* section7 designs */
+
+.section7 {
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 80px 265px;
+  margin-bottom: 80px;
+}
+
+.section7 textarea {
+  height: 20px;
+  padding: 18px 40px;
+}
+
+.section7-content {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.section7-area {
+  display: flex;
+  align-items: center;
+}
+
+.section7-btn {
+  color: #ffffff;
+  border: none;
+  padding: 17px 34px;
+  background-color: #006a50;
+}
+
+.section7-description2 {
+  text-align: center;
+  margin-top: 24px;
+}
 
 /* footer section designs */
