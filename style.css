@@ -431,9 +431,10 @@ textarea {
   width: 90%;
   margin: 0 auto;
   height: 64px;
+  text-align: center;
 }
 
-textarea ::placeholder {
+textarea::placeholder {
   color: rgba(14, 14, 14, 0.3);
   font-size: 20px;
 }
@@ -519,4 +520,7 @@ textarea ::placeholder {
   justify-content: center;
   gap: 25px;
   margin-top: 32px;
+}
+
+@media screen and (max-width: 576px) {
 }
